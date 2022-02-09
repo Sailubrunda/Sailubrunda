@@ -1,0 +1,11 @@
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
+Output1.
+Enter a number: 43 
+43 is Odd
+Output 2.
+Enter a number: 18
+18 is Even
