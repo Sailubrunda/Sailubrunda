@@ -1,0 +1,23 @@
+Sno=int(input ('enter student no:'))
+Sname=input('enter student name:')
+Sgroup=input('enter student group:')
+S1=int(input('os marks:'))
+S2=int(input('java marks:'))
+S3=int(input('accounts marks:'))
+S4=int(input('environment marks:'))
+S5=int(input('english marks:'))
+S6=int(input('hindi marks:'))
+If S1>35 and S2>35 and S3>35 and S4>21 and S5>21 and S6>21:
+Print ('pass')
+Else:print('fail')
+
+Output:-enter student no-1
+Enter student name-Brunda
+Enter student group-bca
+OS marks=50
+Java marks=55
+Accounts marks=60
+Environment marks=40
+English marks =45
+Hindi marks=40
+PASS
