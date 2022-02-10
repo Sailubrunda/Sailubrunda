@@ -1,0 +1,11 @@
+num = int(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+if num == 0:
+   print("Zero")
+else:
+   print("Negative number")
+....................
+Output1.
+Enter a number: 2
+Positive number
