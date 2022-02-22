@@ -1,0 +1,18 @@
+n = 4 
+ for i in range(n):
+ for j in range(i + 1): 
+print(j+1, end="")
+ print()
+ for i in range(n): 
+for j in range(n - i - 1): 
+print(j+1, end="") 
+print()
+
+Output.
+1
+12
+123
+1234
+123
+12
+1
