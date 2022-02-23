@@ -1,0 +1,6 @@
+def Reverse (1st):
+return [ele for ele in reversed (1st)]
+1st = [10, 11, 12, 13, 14, 15] print (Reverse (1st))
+
+Output:
+15, 14, 13, 12, 11, 10
