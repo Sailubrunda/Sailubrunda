@@ -1,0 +1,15 @@
+lower_value = int(input ("Enter the Lowest Range Value: "))  
+upper_value = int(input ("Enter the Upper Range Value: "))  
+print ("The Prime Number in the range are: ")  
+for number in range (lower_value, upper_value + 1): 
+If number > 1:  
+for i in range (2, number):  
+if (number % i) == 0:  
+break     
+else:  
+print (number)  
+..............................................
+Output.
+Enter the Lowest Range Value: 14 
+Enter the Upper Range Value: 97 
+The Prime Numbers in the range are: 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
