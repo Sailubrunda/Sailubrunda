@@ -1,0 +1,5 @@
+str = "How are you"
+print(str[1:-1])
+
+Output:
+"ow are yo"
