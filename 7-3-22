@@ -1,0 +1,14 @@
+test_list = [3, 4, 6, 5, 3, 4, 9, 1, 2, 1, 8, 3, 2, 3, 9] 
+print("The original list is : " + str(test_list)) 
+res = [] 
+
+all_ele = set(test_list) 
+for ele in all_ele: 
+indices = list(filter(lambda sub: test_list[sub] == ele, range(len(test_list)))) 
+idx_rank = sum(indices) / ele 
+res.append((ele, idx_rank)) 
+print("Index rank of each element : " + str(res)) 
+Output.
+The original list is : [3, 4, 6, 5, 3, 4, 9, 1, 2, 1, 8, 3, 2, 3, 9]
+
+Index rank of each element : [(1, 16.0), (2, 10.0), (3, 9.333333333333334), (4, 1.5), (5, 0.6), (6, 0.3333333333333333), (8, 1.25), (9, 2.2222222222222223)]
