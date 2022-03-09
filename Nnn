@@ -1,0 +1,15 @@
+vowels = ['a', 'e', 'i', 'o', 'u']
+
+str = input("Enter a string: ").lower()
+
+c_ctr = 0
+
+for x in str:
+    
+    if x in vowels:
+        v_ctr += 1
+    elif x != ' ':
+        c_ctr += 1
+
+print("Vowels: ", v_ctr)
+print("Consonants: ", c_ctr)
